@@ -1,0 +1,36 @@
+
+<section>
+<div class="container ">
+  <h2 class="text-center">All Products</h2>         
+  <table class="table table-hove mt-5">
+    <thead>
+      <tr>
+        <th>Product Name</th>
+        <th>Category</th>
+        <th>Description</th>
+        <th>Image</th>
+      </tr>
+    </thead>
+    <tbody>
+        {{#each products}}
+      <tr>
+        <td>{{this.name}}</td>
+        <td>{{this.category}}</td>
+        <td>{{this.description}}</td>
+        <td><img style="height: 4rem;width:5rem" src="/images/{{this.img}}"></td>
+      </tr>
+      {{/each}}
+      {{#each laptops}}
+      <tr>
+        <td>{{this.name}}</td>
+        <td>{{this.category}}</td>
+        <td>{{this.description}}</td>
+        <td><img style="height: 4rem;width:5rem" src="/images/{{this.img}}"></td>
+      </tr>
+      {{/each}}
+    </tbody>
+  </table>
+</div>
+
+</section>
+

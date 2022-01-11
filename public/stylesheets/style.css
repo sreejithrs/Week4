@@ -1,0 +1,42 @@
+body {
+  margin:0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.logo-img{
+  height:3rem;
+  width: 4rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.header{
+  background: rgb(228, 219, 219);
+  height: 5rem;
+  width: auto
+}
+
+.header-text{
+  padding-top: 1rem;
+  font-size: 2rem;
+  padding-left: 5rem;
+}
+
+
+/* 
+.main-card{
+  margin-left: 0.5rem;
+  margin-top: 3rem;
+  border: solid 1px rgb(182, 188, 206);
+  box-shadow: 1px 1px rgb(233, 227, 227);
+}
+
+@media (min-width: 992px)
+.col-lg-3 {
+    flex: 0 0 24%;
+    max-width: 24%;
+} */
